@@ -1,6 +1,6 @@
-##Verificação de compatibilidade Mapbox GL JS
+## Verificação de compatibilidade Mapbox GL JS
 
-###Porque isso?
+### Porque isso?
 
 A tecnologia de renderização de mapas 3D bem como outras funcionalidades do Mapbox exigem que o navegador suporte a tecnologia WebGL, a maioria dos navegadores modernos oferece esse suporte nativamente, porém podem haver algumas incompatibilidades por exemplo com as configurações do computador e/ou sistema operacional. Abaixo temos uma 'blacklist' de configurações que NÃO suportam o WebGL.
 
@@ -13,7 +13,7 @@ A tecnologia de renderização de mapas 3D bem como outras funcionalidades do Ma
 
 Para vefificar a compatibilidade do seu computador com essa tecnologia acesse http://mapbox.github.io/mapbox-gl-supported/, caso retorne a mensagem de erro 'MAPBOX GL JS NOT SUPPORTED' siga os passos abaixo.
 
-###Como ativar o WebGL no seu navegador(Google Chrome):
+### Como ativar o WebGL no seu navegador(Google Chrome):
 
 * A opção "Usar aceleração de hardware quando disponível" deve estar ativada no Chrome para que o mesmo utilize a tecnologia WebGl. (Basta acessar as configurações do chrome e procurar por "aceleração de hardware").
 
@@ -22,6 +22,6 @@ Para vefificar a compatibilidade do seu computador com essa tecnologia acesse ht
 
 * E por fim acessar a pagina  http://mapbox.github.io/mapbox-gl-supported/ e verificar se o retorno é "MAPBOX GL JS IS SUPPORTED".
 
-###ALTERNATIVAS:
+### ALTERNATIVAS:
 
 baixar e instalar o chrome canary (uma versão beta do google chrome que oferece mais compatibilidade com esta tecnologia) https://www.google.com.br/chrome/browser/canary.html.
